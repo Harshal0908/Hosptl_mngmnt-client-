@@ -9,7 +9,7 @@ export default function Login() {
   const [password, setPassword] = useState('')
 
   const login = () =>{
-    Axios.post("http://localhost:3001/login",{
+    Axios.post("https://bramha-ayurveda.herokuapp.com//login",{
       username : username,
       password : password
     }).then((response) => {

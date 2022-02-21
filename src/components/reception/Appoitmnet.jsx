@@ -29,7 +29,7 @@ export default function Appoitmnet() {
   const submitButton = () => {
     //console.log("HHHQQQ");
     console.log(typeof(number))
-    Axios.post("http://localhost:3001/appointment",{
+    Axios.post("https://bramha-ayurveda.herokuapp.com/appointment",{
       name : name,
       number : number,
       date : date,
